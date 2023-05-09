@@ -93,15 +93,15 @@ library(modelsummary)
 1. What is search engine advertising?
   Explain the mechanisms through which it might ultimately influence sales revenue.
 
-**Write your answer here**
+*Write your answer here*
   
 2. Why would it be difficult to estimate the effectiveness of search engine advertising with purely observational data?
 
-**Write your answer here**
+*Write your answer here*
 
 3. Explain why the experiment that Blake, Nosko and Tadelis runs allows them to avoid the issues in (2), and accurately measure the causal effect of search engine advertising on sales.
 
-**Write your answer here**
+*Write your answer here*
 
 With some conceptual knowledge under our belt, let's get our hands dirty.
 We will start by cleaning up the data a little and then producing some summary plots to build up an understanding of the main patterns.
@@ -188,14 +188,14 @@ knitr::include_graphics('figs/ebay_experiment.png')
 10. Is average revenue different for DMAs that have turned off search advertising compared to those where it remains on?
 Why might this be the case?
 
-**Write your answer here**
+*Write your answer here*
 
 11. From the graph above, can you "eye-conometrically" see any effect of turning off search engine ads?^[
   All "clean" (well-executed) Difference in Difference papers should produce a plot where you can visually assess what is going on.
   If you don't see one, its could a warning sign that whatever comes next is an artifact of the statistical model, rather than the experiment (or, if published in a journal *maybe* an editor asked to suppress the figure to save space).
 ]
 
-**Write your answer here**
+*Write your answer here*
 
 
 Now we will go back to working with the full dataset `paidsearch`.
@@ -233,12 +233,12 @@ Compute each of these four $\bar{y}$'s.
 
 15. Interpret the effect you computed from the point of view of a marketing analyst working at eBay. Is it large from a marketing viewpoint?
 
-**Write your answer here**
+*Write your answer here*
 
 16. We rarely see analytical work use this difference in averages approach.
 Can you explain why that might be the case?
 
-**Write your answer here**
+*Write your answer here*
 
 17. Estimate a linear regression that computes the equivalent Difference-in-Difference estimate as (13).
 
@@ -249,7 +249,7 @@ Can you explain why that might be the case?
 
 18. Is $\hat{\beta}_{DiD}$ statistically significant? How can you tell?
 
-**Write your answer here**
+*Write your answer here*
 
 19. We can repeat the estimation in (17) using $\log(revenue)$ rather than $revenue$. Why might we want to do that?
 Run this regression and interpret the magnitude of the treatment effect.
@@ -299,4 +299,4 @@ Does it appear satisfied in our data?
 
 25. Can we definitively conclude from the results above that search engine marketing does not pay off? Explain your answer.
 
-**Write your answer here**
+*Write your answer here*
